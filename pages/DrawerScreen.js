@@ -1,11 +1,11 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-export default function Stack2() {
+export default function DrawerScreen() {
     return (
-        <View styles={styles.container}>
-            <Text style={styles.title}>Página Stack da Flavia</Text>
-            </View>
+        <View style={styles.container}>
+            <Text style={styles.title}>Página Drawer da Flavia</Text>
+        </View>
     );
 }
 
@@ -14,7 +14,7 @@ const styles = {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#f5fcff",
+        backgroundColor: "lightgreen",
     },
     title: {
         fontSize: 30,
